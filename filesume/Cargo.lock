@@ -5,3 +5,10 @@ version = 3
 [[package]]
 name = "filesume"
 version = "0.1.0"
+dependencies = [
+ "helo",
+]
+
+[[package]]
+name = "helo"
+version = "0.1.0"

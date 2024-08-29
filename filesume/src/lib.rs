@@ -1,3 +1,4 @@
+#![crate_name = "filesume"]
 use core::str;
 use std::error::Error;
 use std::fs::read_to_string;
@@ -6,7 +7,29 @@ pub struct Config {
     filepath: String,
     case: bool,
 }
+///
+/// This section provides an overview of `my_function`.
+///
+/// ## Parameters
+///
+/// - `param1`: Description of the first parameter.
+/// - `param2`: Description of the second parameter.
+///
+/// ## Example
+///
+/// Here's how you might use `my_function`:
+///
+/// ```rust
+/// my_function();
+/// ```
+///Hello Namaste Tata GOod Bye
+/// # Code Snippet
+/// ```
+/// pub fn (&self) -> String
+/// ````
+/// Says "Hello, [Config](Error)" to the `Person` it is called on.
 
+/// /! This function return String
 impl Config {
     pub fn build(args: &[String]) -> Result<Config, &str> {
         if args.len() < 3 {

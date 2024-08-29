@@ -1,7 +1,10 @@
 use filesume::run;
 use filesume::Config;
+use helo::add;
 use std::{env::args, process};
 fn main() {
+    let re = add(1, 2);
+    dbg!(re);
     println!("Enter in the Format of -- [text] [filepath] [case_senistivity]");
     let vars: Vec<String> = args().collect();
     let config = Config::build(&vars).unwrap_or_else(|err| {
