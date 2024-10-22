@@ -20,12 +20,10 @@ pub struct Config {
 /// Here's how you might use `my_function`:
 ///
 /// ```rust
-/// my_function();
 /// ```
 ///Hello Namaste Tata GOod Bye
 /// # Code Snippet
 /// ```
-/// pub fn (&self) -> String
 /// ````
 /// Says "Hello, [Config](Error)" to the `Person` it is called on.
 
